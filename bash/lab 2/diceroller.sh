@@ -23,3 +23,4 @@ $(( RANDOM % 6 + 1)) rolled
 "
 # Generating random results. As generated results should be less than 6 we use modulo operation 6 + 1.
 done
+#

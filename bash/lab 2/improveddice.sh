@@ -17,11 +17,16 @@
 # Tell the user we have started processing
 
 echo "Enter number of sides:"
+#echo command is used to print statement as it is in terminal
 read sides
+# read command accepts user input
 echo "Enter minimum value as range for rolling:"
+#echo command is used to print statement as it is in terminal
 read min
+# read command accepts user input
 
 echo "Rolling..."
+#echo command is used to print statement as it is in terminal
 # roll the dice and save the results
 die1=$(( RANDOM % $sides + $min ))
 # $sides represents number of option and $min represents minimum value on dice
@@ -30,7 +35,10 @@ die2=$(( RANDOM % $sides + $min ))
 sum=$(($sides + $min))
 # generating sum of two rolled options namely stored as die1 and die2
 echo "The sum is: $sum"
+#echo command is used to print statement as it is in terminal
 avg=$(($sum / 2))
 # average of two number is sum/2. so dividing and displaying average of two rolled option.
 echo "The average is: $avg"
+#echo command is used to print statement as it is in terminal
 echo "Rolled $die1, $die2"
+#echo command is used to print statement as it is in terminal
