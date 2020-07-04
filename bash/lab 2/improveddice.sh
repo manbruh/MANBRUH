@@ -32,7 +32,7 @@ die1=$(( RANDOM % $sides + $min ))
 # $sides represents number of option and $min represents minimum value on dice
 die2=$(( RANDOM % $sides + $min ))
 
-sum=$(($sides + $min))
+sum=$(($die1 + $die2))
 # generating sum of two rolled options namely stored as die1 and die2
 echo "The sum is: $sum"
 #echo command is used to print statement as it is in terminal
