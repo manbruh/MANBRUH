@@ -7,20 +7,14 @@
 #    the sum of the 3 numbers with a label
 #    the product of the 3 numbers with a label
 
-echo "Enter first number:"
-#echo command is used to print statement as it is in terminal
-read firstnum
-# read command accepts user input
+printf "Enter first number:"
+read -r firstnum
 # user input first number
-echo "Enter second number:"
-#echo command is used to print statement as it is in terminal
+printf "Enter second number:"
 read secondnum
-# read command accepts user input
 # user input second number
-echo "Enter third number:"
-#echo command is used to print statement as it is in terminal
+printf "Enter third number:"
 read thirdnum
-# read command accepts user input
 # user inpur third number
 
 sum=$(($firstnum + $secondnum + $thirdnum))
